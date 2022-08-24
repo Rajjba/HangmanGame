@@ -8,6 +8,13 @@ Console.ReadLine();
 Console.Clear();
 
 Console.WriteLine("GUESS A LETTER!");
-Console.ReadLine();
+Console.Write("\n" + "\n" + "_ _ _ _");
+string guess = Console.ReadLine();
+
+while(true){
+    if(guess == "H" || guess == "A" || guess == "N" || guess == "G" ){
+        
+    }
+}
 
 Console.ReadLine();
